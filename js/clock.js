@@ -2,5 +2,5 @@ function sayHello(){
     clock.innerText = new Date().toLocaleTimeString();
 }
     
-sayHello()
+sayHello();
 setInterval(sayHello, 1000);
